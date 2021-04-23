@@ -55,9 +55,9 @@
      <Compile Include="Assets\Scripts\Platforms\FinishPlatform.cs" />
      <Compile Include="Assets\Input System\Controllers.cs" />
      <Compile Include="Assets\Scripts\Platforms\Platform.cs" />
-     <Compile Include="Assets\Scripts\TowerBuilder.cs" />
+     <Compile Include="Assets\Scripts\Tower\TowerBuilder.cs" />
      <Compile Include="Assets\Scripts\Platforms\StartPlatform.cs" />
-     <Compile Include="Assets\Scripts\TowerRotator.cs" />
+     <Compile Include="Assets\Scripts\Tower\TowerRotator.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\DropdownSample.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
@@ -93,6 +93,9 @@
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
      <Compile Include="Assets\Scripts\Beam\Beam.cs" />
+     <Compile Include="Assets\Scripts\Player.cs" />
+     <Compile Include="Assets\Scripts\Platforms\Destroyable.cs" />
+     <Compile Include="Assets\Scripts\CameraBehaviour.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
