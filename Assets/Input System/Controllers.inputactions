@@ -1,0 +1,56 @@
+{
+    "name": "Controllers",
+    "maps": [
+        {
+            "name": "Tower Rotator",
+            "id": "975bac9e-6c01-4f39-b4e8-b4b4f43dbca9",
+            "actions": [
+                {
+                    "name": "RotateTouch",
+                    "type": "Value",
+                    "id": "e02e3b25-3bc9-4fd8-906c-4a805a21fc07",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "6fe79b06-6418-46e9-a450-5e5571b313be",
+                    "path": "<Touchscreen>/primaryTouch/delta",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "TouchScren",
+                    "action": "RotateTouch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "TouchScren",
+            "bindingGroup": "TouchScren",
+            "devices": [
+                {
+                    "devicePath": "<Touchscreen>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        },
+        {
+            "name": "Keybord",
+            "bindingGroup": "Keybord",
+            "devices": [
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}
