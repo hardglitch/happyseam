@@ -8,11 +8,12 @@ namespace Platforms
     {
         [SerializeField] private Player player;
         [SerializeField] private Transform startPoint;
-
-        private void Awake()
+        
+        private void Start()
         {
-            Instantiate(player, startPoint.position, Quaternion.identity);
+            print(startPoint.position);
+            var b = Instantiate(player, startPoint.position, Quaternion.identity);
+            print(b.transform.position);
         }
     }
-    
 }
