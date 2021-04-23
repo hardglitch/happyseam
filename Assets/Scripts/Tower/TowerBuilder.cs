@@ -12,7 +12,7 @@ namespace Tower
         [SerializeField] private StartPlatform startPlatformPrefab;
         [SerializeField] private FinishPlatform finishPlatformPrefab;
         [SerializeField] private Platform[] basicPlatformPrefabs;
-        private int _platformCount;
+        [SerializeField] private int platformCount;
 
         private void Awake()
         {
@@ -21,9 +21,8 @@ namespace Tower
 
         private void BuildTower()
         {
-            _platformCount = Random.Range(10, 20);
             var beam = Instantiate(beamPrefab, transform);
-            beam.transform.localScale = new Vector3(1, _platformCount / 2f, 1);
+            beam.transform.localScale = new Vector3(1, platformCount / 2f, 1);
 
             var platformPos = beam.transform.position;
             var startPlatformPos = platformPos;
@@ -35,7 +34,7 @@ namespace Tower
 
             CreatePlatform(startPlatformPrefab, ref startPlatformPos, beam.transform);
         
-            for (var i = 0; i < _platformCount - 2; i++)
+            for (var i = 0; i < platformCount - 2; i++)
             {
                 CreatePlatform(
                     basicPlatformPrefabs[Random.Range(0, basicPlatformPrefabs.Length)],

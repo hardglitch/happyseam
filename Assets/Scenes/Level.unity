@@ -370,7 +370,8 @@ MonoBehaviour:
   - {fileID: 1665526194208792206, guid: 38dc3a1b0fa7eb64da944273e6b7a12f, type: 3}
   - {fileID: -8522824372498321045, guid: fb4fe24dbef8e014c92932b824ff0a09, type: 3}
   - {fileID: -72363331200453747, guid: cce03d61d1ff54848b7aed62a2c5a5b7, type: 3}
-  - {fileID: 8351651186397091200, guid: 11107538e3e8271409e8a8e8200e3ba0, type: 3}
+  - {fileID: 7060492991494090719, guid: ade5a8d20362484479bb802e12d05208, type: 3}
+  platformCount: 100
 --- !u!114 &1445997989
 MonoBehaviour:
   m_ObjectHideFlags: 0
