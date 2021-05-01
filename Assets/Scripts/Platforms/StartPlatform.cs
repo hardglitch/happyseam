@@ -11,9 +11,7 @@ namespace Platforms
         
         private void Start()
         {
-            print(startPoint.position);
-            var b = Instantiate(player, startPoint.position, Quaternion.identity);
-            print(b.transform.position);
+            Instantiate(player, startPoint.position, Quaternion.identity);
         }
     }
 }

@@ -1,6 +1,5 @@
 // This must be on "Main Camera" in Unity 
 
-using System;
 using UnityEngine;
 
 public class CameraBehaviour : MonoBehaviour

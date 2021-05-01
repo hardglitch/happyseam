@@ -19,7 +19,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 1
   m_IsActive: 1
 --- !u!4 &6542696483632357696
 Transform:
@@ -125,6 +125,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3014630c3de3544bae62077b913ac7e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 6542696483632357759}
-  startPoint: {fileID: 0}
   jumpForce: 3

@@ -314,7 +314,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -876546973899608171, guid: 8db9697ca6ed5a445bc90c73442229eb, type: 3}
+  - {fileID: 2100000, guid: 4b4f09118b0f43847800cc0dc7ef7aea, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -389,7 +389,7 @@ GameObject:
   - component: {fileID: 3902544797096015354}
   - component: {fileID: 7060492991494090719}
   m_Layer: 0
-  m_Name: Platform 5 1
+  m_Name: Platform 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -489,7 +489,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -876546973899608171, guid: 8db9697ca6ed5a445bc90c73442229eb, type: 3}
+  - {fileID: 2100000, guid: 4b4f09118b0f43847800cc0dc7ef7aea, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

@@ -36,15 +36,7 @@ namespace Tower
             var touchInput = _playerController.TowerRotator.RotateTouch.ReadValue<Vector2>();
             var torque = touchInput.x * Time.fixedDeltaTime * rotateSpeed;
             
-            if (touchInput.x > 0)
-            {
-                _rigidbody.AddTorque(Vector3.up * torque);
-            }
-            else
-            if (touchInput.x < 0)
-            {
-                _rigidbody.AddTorque(Vector3.up * torque);
-            }
+            if (touchInput.x != 0) _rigidbody.AddTorque(Vector3.up * torque);
         }
     }
 }

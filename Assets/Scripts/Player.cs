@@ -17,16 +17,12 @@ public class Player : MonoBehaviour
     private void OnCollisionEnter(Collision other)
     {
         if (other.gameObject.TryGetComponent(out Destroyable _))
-        {
             _rigidbody.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
-        }
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.TryGetComponent(out Destroyable _))
-        {
-            other.GetComponentInParent<Platform>().Break();
-        }
+        if (other.gameObject.TryGetComponent(out Destroyable _))
+            other.gameObject.GetComponentInParent<Platform>().Break();
     }
 }
