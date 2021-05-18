@@ -90,7 +90,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f466f1bf7539e3459a1c14bead68345, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 6542696483632357759, guid: 4baa5403180312e478c52ca464a3d3b9, type: 3}
+  player: {fileID: 6483200720792026545, guid: 85e61ae31aec25d42a67c42a847449e5, type: 3}
   startPoint: {fileID: 3846927853709170683}
 --- !u!1 &3909956861353470427
 GameObject:
